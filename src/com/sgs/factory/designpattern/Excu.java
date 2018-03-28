@@ -10,13 +10,16 @@ public class Excu {
 		System.out.println();
 		
 		// 
-		System.out.println(" Check commit test:");
+		//System.out.println(" Check commit test:");
 
 		Mobile SonyMobile = MobileFactory.createMobile(Mobile.SONY);
 		System.out.println("---Sony Mobile Confrigration ---");
 		System.out.println(SonyMobile.toString());
 		System.out.println();
-
+ 
+		System.out.println("============");
+		System.out.println("============");
+		System.out.println("============");
 		Mobile iphoneMobile = MobileFactory.createMobile(Mobile.IPHONE);
 		System.out.println("---Iphone Mobile Confrigration---");
 		System.out.println(iphoneMobile.toString());
