@@ -11,7 +11,8 @@ public class IPhone  implements Mobile{
 		this.processor = processor;
 		this.GPU = GPU;
 	}
-
+  
+	// for checking on git
 	@Override
 	public String toString() {
 		return "IPhone [ramSize=" + ramSize + ", processor=" + processor + ", GPU=" + GPU + "]";

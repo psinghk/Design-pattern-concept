@@ -13,6 +13,7 @@ public class Samsung implements Mobile {
 		this.ramSize=2;
 	}
 
+	//  Here something try to change
 	@Override
 	public String toString() {
 		return "Samsung [ramSize=" + ramSize + ", processor=" + processor + "]";

@@ -10,6 +10,10 @@ public class Sony  implements Mobile{
 		this.processor = processor;
 	}
 
+//	 private void Syso() {
+//		// TODO Auto-generated method stub
+//
+//	}
 	@Override
 	public String toString() {
 		return "Sony [ramSize=" + ramSize + ", processor=" + processor + "]";
