@@ -8,6 +8,9 @@ public class Excu {
 		System.out.println("---Samsung Mobile Confrigration ---");
 		System.out.println(SamsungMobile.toString());
 		System.out.println();
+		
+		// 
+		System.out.println(" Check commit test:");
 
 		Mobile SonyMobile = MobileFactory.createMobile(Mobile.SONY);
 		System.out.println("---Sony Mobile Confrigration ---");
