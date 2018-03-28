@@ -3,6 +3,9 @@ package com.sgs.factory.designpattern;
 public class MobileFactory {
 	public static Mobile createMobile(String type){
 		
+		//
+		////
+		///
 		if(type.equals(Mobile.IPHONE)){
 			return new IPhone(2, "G9", "A9GPU");
 		}else if(type.equals(Mobile.Samsung)){
